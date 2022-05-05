@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+.header {
+    font-size: 20px;
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding: 10px 20px;
+    align-items: center;
+
+
+}
+.logo {
+    margin-right: 50px;
+    text-decoration: none;
+    color:lightgreen;
+    background: rebeccapurple;
+    font-style: 700;
+    padding: 5px 15px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+} 
+ul > li {
+    margin-right: 30px;
+}
+.box {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    border-bottom: 1px solid #000;
+}
+.aside {
+    padding: 10px 20px;
+    background-color: lavender;
+
+
+}
+.post {
+    padding-bottom: 20px;
+}
+footer {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a {
+    color:rebeccapurple;
+    text-decoration: none;
+    font-style: 700;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+section {
+    padding: 5px 20px;
+    background-color: lavender;
+    margin-bottom: 20px;
+   
+}
